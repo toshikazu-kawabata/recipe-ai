@@ -45,7 +45,7 @@ export default function Home() {
             id="ingredients"
             name="ingredients"
             required
-            placeholder="Ingredient1, Ingredient2, Ingredient3,..etc"
+            placeholder="調べたい情報を入力してください"
             className="border border-black  text-gray-900 p-4 rounded-lg max-w-full w-full text-xl "
           />
           <button

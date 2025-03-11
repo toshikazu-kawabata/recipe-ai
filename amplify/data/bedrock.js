@@ -1,9 +1,7 @@
 export function request(ctx) {
   const { ingredients = [] } = ctx.args;
 
-  const prompt = `Suggest a recipe idea using these ingredients : ${ingredients.join(
-    ","
-  )}.`;
+  const prompt = `You are an assistant for question-answering tasks. 回答は日本語でお願いします。`;
 
   return {
     resourcePath: `/model/anthropic.claude-3-sonnet-20240229-v1:0/invoke`,
